@@ -26,7 +26,7 @@ export default function Home({filteredCoins}) {
     <div className='coin_app'>     
       <SearchBar type='text' placeholder='Pesquisar' onChange={handleChange} />
       <div className='flex ml-[302px]'>
-      <p className='mr-[90px]'>Preço:</p>
+      <p className='mr-[90px]'>Preçod:</p>
       <p className='mr-[110px]'>Volume em 24 h:</p>
       <p className='mr-[120px]'>7h:</p>
       <p className='mr-[50px]'>Cap. de Mercado:</p>
